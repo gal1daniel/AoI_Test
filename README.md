@@ -21,6 +21,23 @@ A UI a pontossága érdekében Boostrap v5.3-at használtam:
 
 "import 'bootstrap/dist/css/bootstrap.min.css';"
 
+## Modulok amiket használtam (ezek közé beletartozik az is amiket a NextJs telepítésekor letölttöt "npx create-next-app@latest"
+
+`├── @types/fs-extra@11.0.4
+├── @types/node@20.11.20
+├── @types/react-dom@18.2.19
+├── @types/react@18.2.60
+├── @types/uuid@9.0.8
+├── autoprefixer@10.4.17
+├── bootstrap@5.3.3
+├── next@14.1.0
+├── postcss@8.4.35
+├── react-dom@18.2.0
+├── react@18.2.0
+├── tailwindcss@3.4.1
+├── typescript@5.3.3
+└── uuid@9.0.1`
+
 ## Egyedi azonosítók
 
 Az egyedi azonosítók létrehozásához a UUID (`v4`) modult használtam a következő módon:
@@ -29,3 +46,4 @@ Az egyedi azonosítók létrehozásához a UUID (`v4`) modult használtam a köv
 import { v4 as uuidv4 } from 'uuid';
 
 const uniqueId = uuidv4();
+
