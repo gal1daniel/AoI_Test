@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "lipicai",
+        "count": 4
+    },
+    {
+        "id": 2,
+        "name": "muraközi",
+        "count": 3
+    },
+    {
+        "id": 3,
+        "name": "kisbéri félvér",
+        "count": 5
+    },
+    {
+        "id": 4,
+        "name": "shetland póni",
+        "count": 1
+    }
+]

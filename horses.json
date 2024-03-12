@@ -1,0 +1,50 @@
+[
+  {
+    "id": "c7265879-0e0b-47d4-9831-e5c957b0cfde",
+    "name": "Berkenye",
+    "color": "Fekete",
+    "dateofbirth": "2016",
+    "breed": "Lipicai",
+    "stable": "A"
+  },
+  {
+    "id": "7ece636b-7770-4def-8586-0ace3509f8e7",
+    "name": "Csendes",
+    "color": "Csikos",
+    "dateofbirth": "2018",
+    "breed": "Kisbéri félvér",
+    "stable": "B"
+  },
+  {
+    "id": "cf2c55eb-6eac-4c93-8813-2df828a6b25e",
+    "name": "Sámson",
+    "color": "Rozsda",
+    "dateofbirth": "2018",
+    "breed": "Muraközi",
+    "stable": "A"
+  },
+  {
+    "id": "af7118c6-fdf0-475e-bdd3-25afdf2f49ef",
+    "name": "Dicső",
+    "color": "Fekete",
+    "dateofbirth": "2011",
+    "breed": "Muraközi",
+    "stable": "C"
+  },
+  {
+    "id": "07a6d003-79e0-4040-9da6-f1a40ce58a0c",
+    "name": "Lali",
+    "color": "Barna",
+    "dateofbirth": "2013",
+    "breed": "Kisbéri félvér",
+    "stable": "B"
+  },
+  {
+    "id": "4483878b-c5ff-4d4c-8bcf-31210c829306",
+    "name": "Bokréta",
+    "color": "Fehér",
+    "dateofbirth": "2015",
+    "breed": "Shetland póni",
+    "stable": "C"
+  }
+]
