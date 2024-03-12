@@ -21,7 +21,7 @@ A UI a pontossága érdekében Boostrap v5.3-at használtam:
 
 "import 'bootstrap/dist/css/bootstrap.min.css';"
 
-## Modulok amiket használtam: (ezek közé beletartozik az is amiket a "NextJs" telepítésekor telepítődtek "npx create-next-app@latest"
+## Modules
 
 `├── @types/fs-extra@11.0.4
 ├── @types/node@20.11.20
