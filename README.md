@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AoI_Test
 
-## Getting Started
+Ez a projekt egy példa Next.js-alapú webalkalmazásra, amely lovak adatait kezeli.
 
-First, run the development server:
+## Technológiai háttér
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A projekt készítése során a Next.js keretrendszert használtam, amely egy React-alapú keretrendszer. Az oldalakat az "app" mappában hoztam létre, amelyeket a Next.js beépített Link komponensek segítségével jelenítettem meg, és Bootstrap által formázott táblázatban rendszereztem, mint a kezdőlapot.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Adatkezelés
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Az alkalmazás részeként találhatóak:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- `app/breeds-count`: Ez a mappa a "breeds-count.json" adattömböt kezeli.
+- `app/horse`: Ez a mappa a "horses.json" fájlt kezeli.
 
-## Learn More
+A `breeds-count` mappában található `route.ts` fájlt az "adatok" oldal használja. A `horse` mappában található `route.ts` fájlt a "rogzites" oldal, a `horse/[id]` mappában lévő `route.ts` fájlt pedig a "modositas" oldal használja.
 
-To learn more about Next.js, take a look at the following resources:
+## UI
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+A UI a pontossága érdekében Boostrap v5.3-at használtam:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+"import 'bootstrap/dist/css/bootstrap.min.css';"
 
-## Deploy on Vercel
+## Egyedi azonosítók
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Az egyedi azonosítók létrehozásához a UUID (`v4`) modult használtam a következő módon:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```javascript
+import { v4 as uuidv4 } from 'uuid';
+
+const uniqueId = uuidv4();
